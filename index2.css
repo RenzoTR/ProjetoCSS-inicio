@@ -1,0 +1,113 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero {
+    background-image: url(imagens/bg-1.jpg);
+    height: 950px;
+    background-size: cover;
+    background-position: right bottom;
+    padding-top: 1px;
+}
+
+.hero-content {
+margin: 320px auto 0;
+width: 80%;
+text-align: center;
+color: white;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.65) ;
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+    margin-top: 110px;
+}
+
+.hero nav ul{
+    margin: 20px 50px 0px 0px;
+    text-align: right;
+    
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid white;
+    margin-left: 12px;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0, .3);
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px ;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0, .56)
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+section{
+    padding-top: 32px;
+}
+
+article{
+    background-color: white;
+    padding:16px;
+    margin-bottom: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 12px;
+    margin-top: 0px;
+}
+
+.btn{
+    background-color: #cdc7c3;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.475);
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background-color: #7a777698;
+}
+
+.btn:visited{
+    color: black;
+}
+
+.rodape{
+    color: white;
+    text-align: center;
+    background-color: #78787891;
+    text-shadow: 2px 2px 2px black;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}

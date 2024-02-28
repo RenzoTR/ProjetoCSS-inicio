@@ -55,6 +55,8 @@ body{
     background-color: rgba(0, 0, 0, 0.43);
     border-bottom: 2px solid white;
     font-size: 28px;
+    display: block;
+    width: fit-content;
 }
 
 article{
